@@ -1,44 +1,106 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/WesleyMarquesGit/TwitterClone?color=%2304D361">
 
-## Available Scripts
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/WesleyMarquesGit/TwitterClone">
+  
+  <a href="https://github.com/WesleyMarquesGit/TwitterClone/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/WesleyMarquesGit/TwitterClone">
+  </a>
 
-In the project directory, you can run:
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/WesleyMarquesGit/TwitterClone/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/WesleyMarquesGit/TwitterClone?style=social">
+  </a>
+</p>
 
-### `yarn start`
+---
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### :rocket: Sobre o projeto
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Este projeto foi basicamente uma copia da interface do Twitter, e foi utilizado para estudo sobre responsividade.
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🎨 Interface
 
-### `yarn build`
+<h1 align="center">
+  <img alt="interface" title="interface" src="assets/layout.png" width='800px'>
+</h1>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Acessar link Netlify][twitterclone]
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### :space_invader: Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### `yarn eject`
+- [Node.js][nodejs]
+- [React][reactjs]
+- [Styled-components][styledcomponents]
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### :computer: Manual
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Pré-requisitos
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- É **necessário** possuir o **[Node.js][nodejs]** instalado no computador
+- É **necessário** possuir o **[Git][git]** instalado e configurado no computador
+- Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM][npm]** ou **[Yarn][yarn]**.
 
-## Learn More
+#### Como executar
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### 1. Clone o repositório
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clone este repositório
+$ git clone https://github.com/WesleyMarquesGit/TwitterClone.git
+```
+
+#### 2. Rodando a aplicação web (Front-End)
+
+```bash
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd TwitterClone
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+├── /src
+|   ├── /components
+|   ├── /styles
+
+```
+
+---
+
+### :recycle: Como contribuir para o projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b sua-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feat/nova-feature"`
+4. Envie as suas alterações: `git push origin sua-feature`
+
+---
+
+### :page_with_curl: Licença
+
+Este projeto esta sobe a licença MIT.
+
+---
+
+[yarn]: https://yarnpkg.com/
+[npm]: https://www.npmjs.com/
+[nodejs]: https://nodejs.org/
+[koajs]: https://koajs.com/
+[knex]: http://knexjs.org/#Installation-node
+[reactjs]: https://reactjs.org
+[styledcomponents]: https://styled-components.com/docs/basics
+[git]: https://git-scm.com/
+[postgres]: https://www.postgresql.org/
+[license]: https://opensource.org/licenses/MIT
+[twitterclone]: https://wes-twitter-clone.netlify.app/

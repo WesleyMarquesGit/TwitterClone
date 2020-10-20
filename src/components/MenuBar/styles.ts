@@ -101,6 +101,7 @@ export const MenuButton = styled.button`
   }
 
   &:hover {
+    transition: 0.5s;
     background: var(--twitter-dark-hover);
   }
 
