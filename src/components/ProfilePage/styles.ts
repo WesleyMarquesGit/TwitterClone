@@ -125,5 +125,6 @@ export const EditButtom = styled(Button)`
   @media (min-width: 320px) {
     top: 30px;
     padding: 10px 20px;
+    font-size: 15px;
   }
 `

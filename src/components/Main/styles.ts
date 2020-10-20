@@ -17,7 +17,7 @@ export const Container = styled.div`
 export const Header = styled.div`
   z-index: 2;
   position: sticky; // Preso no topo da tela
-  top: o;
+  top: 0;
   background: var(--primary);
 
   display: flex;
