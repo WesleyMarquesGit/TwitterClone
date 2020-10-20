@@ -17,7 +17,7 @@
 
 ### :rocket: Sobre o projeto
 
-Este projeto foi basicamente uma copia da interface do Twitter, e foi utilizado para estudo sobre responsividade.
+Este projeto foi basicamente uma copia da interface do Twitter instruido pela rocketseat, e foi utilizado para estudo sobre responsividade.
 
 ---
 
@@ -33,9 +33,9 @@ Este projeto foi basicamente uma copia da interface do Twitter, e foi utilizado 
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Node.js][nodejs]
 - [React][reactjs]
 - [Styled-components][styledcomponents]
+- [React Sticky Box][reactstickybox]
 
 ---
 
@@ -104,3 +104,4 @@ Este projeto esta sobe a licença MIT.
 [postgres]: https://www.postgresql.org/
 [license]: https://opensource.org/licenses/MIT
 [twitterclone]: https://wes-twitter-clone.netlify.app/
+[reactstickybox]: https://react-sticky-box.codecks.io/
