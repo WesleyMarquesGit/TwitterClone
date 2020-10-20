@@ -50,13 +50,23 @@ export const Logo = styled(Rocketseat)`
 export const MenuButton = styled.button`
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-shrink: 0;
+
+  width: 100%;
+  padding: 8.25px 0;
+  outline: 0;
+
+  cursor: pointer;
+  border-radius: 25px;
 
   > span {
     display: none;
   }
 
   @media (min-width: 1280px) {
+    justify-content: flex-start;
+    padding-left: 15px;
     > span {
       display: inline;
       margin-left: 20px;
@@ -64,14 +74,10 @@ export const MenuButton = styled.button`
       font-weight: bold;
       font-size: 16px;
     }
-
-    padding-right: 15px;
   }
-  padding: 8.25px 0;
-  outline: 0;
 
   & + button {
-    margin-top: 16.5;
+    margin-top: 16.5px;
   }
 
   & + button:last-child {
@@ -93,9 +99,6 @@ export const MenuButton = styled.button`
       }
     }
   }
-
-  cursor: pointer;
-  border-radius: 25px;
 
   &:hover {
     background: var(--twitter-dark-hover);
@@ -171,8 +174,8 @@ export const ExitIcon = styled(ExitToApp)`
 
   @media (min-width: 1280px) {
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     color: var(--white);
     margin-left: 30px;
     cursor: pointer;

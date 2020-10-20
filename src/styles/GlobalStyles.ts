@@ -37,8 +37,8 @@ html {
     --outline: #2F3336;
     --retweet: #00C06B;
     --like: #E8265E;
-    --twitter: #33A1F2;
+    --twitter: #6461e4;
     --twitter-dark-hover: #011017;
-    --twitter-light-hover: #2C8ED6;
+    --twitter-light-hover: #6766b1;
 }
 `
